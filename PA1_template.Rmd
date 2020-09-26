@@ -78,5 +78,3 @@ plot<- ggplot(activity_by_date, aes(x = interval , y = steps, color = datetype))
        facet_wrap(~datetype, ncol = 1, nrow=2)
 print(plot)
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
